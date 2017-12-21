@@ -1,0 +1,10 @@
+commands:
+  to-admin:
+    - 'pex user %player% group set Owner'
+  to-player:
+    - 'pex user %player% group set Player'
+  
+messages:
+  no-permission: '&cYou do not have access to that command.'
+  to-player: '&aYou are now a regular player.'
+  to-admin: '&cYou are now an admin.'

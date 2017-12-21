@@ -1,0 +1,16 @@
+name: AdminSwitch
+description: Allow admins to switch between admin mode and regular player mode
+version: 1.0.1
+author: PixelSquared
+main: me.PixelSquared.adminswitch.AdminSwitch
+
+commands:
+  admin:
+    usage: /<command> <on/off/reload>
+    aliases: [adminswitch]
+    description: Switch between admin mode and regular player mode
+    
+permissions:
+  adminswitch.use:
+    description: Allow admins to switch between admin mode and regular player mode
+    default: false
